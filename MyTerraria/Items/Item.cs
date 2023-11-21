@@ -6,7 +6,7 @@ namespace MyTerraria.Items
 {
     abstract class Item : Entity
     {
-        public const float MOVE_DISTANCE_TO_PLAYER = 100f;  // Дистанция начала движения предмета в сторону игрока
+        public const float MOVE_DISTANCE_TO_PLAYER = 1000f;  // Дистанция начала движения предмета в сторону игрока
         public const float TAKE_DISTANCE_TO_PLAYER = 20f;   // Дистанция подбора предмета игроком
         public const float MOVE_SPEED_COEF = 2f;          // Коэффицент увеличения скорости движения
 
