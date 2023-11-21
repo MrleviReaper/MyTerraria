@@ -32,7 +32,7 @@ namespace MyTerraria
 
         private void updatePhysics()
         {
-            velocity.X *= 0.99f;
+            velocity.X *= 100.99f;
 
             if (!isGhost)
             {
